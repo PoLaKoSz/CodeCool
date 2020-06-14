@@ -1,5 +1,7 @@
+import Col from "react-bootstrap/Col";
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import Row from "react-bootstrap/Row";
 
 export class PokemonItem extends Component {
   static propTypes = {
@@ -9,10 +11,20 @@ export class PokemonItem extends Component {
   render() {
     const pokemon = this.props.pokemon;
     return (
-      <div>
-        <h3>{pokemon.name}</h3>
-        <img src={pokemon.sprite} alt="Pokémon's sprite" />
-      </div>
+      <Col xs={3} className="p-3">
+        <Row>
+          <img
+            src={pokemon.sprite}
+            alt="Pokémon's sprite"
+            className="mx-auto"
+          />
+        </Row>
+        <Row>
+          <a href="#" className="mx-auto text-capitalize">
+            {pokemon.name}
+          </a>
+        </Row>
+      </Col>
     );
   }
 }

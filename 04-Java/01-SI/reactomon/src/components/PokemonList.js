@@ -1,8 +1,10 @@
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import PokemonItem from "./PokemonItem";
 
-export class Pokemons extends Component {
+export class PokemonList extends Component {
   state = {
     pokemons: [],
   };
@@ -18,10 +20,14 @@ export class Pokemons extends Component {
   }
 
   render() {
-    return this.state.pokemons.map((pokemon) => (
-      <PokemonItem key={pokemon.id} pokemon={pokemon} />
-    ));
+    return (
+      <div className="d-flex flex-wrap">
+        {this.state.pokemons.map((pokemon) => (
+          <PokemonItem key={pokemon.id} pokemon={pokemon} />
+        ))}
+      </div>
+    );
   }
 }
 
-export default Pokemons;
+export default PokemonList;
