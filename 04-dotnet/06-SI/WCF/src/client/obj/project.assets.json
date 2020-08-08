@@ -1,0 +1,63 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": []
+  },
+  "packageFolders": {
+    "/home/polakosz/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/mnt/2220423F41292B4D/GitHub/CodeCool/04-dotnet/06-SI/WCF/src/client/client.csproj",
+      "projectName": "client",
+      "projectPath": "/mnt/2220423F41292B4D/GitHub/CodeCool/04-dotnet/06-SI/WCF/src/client/client.csproj",
+      "packagesPath": "/home/polakosz/.nuget/packages/",
+      "outputPath": "/mnt/2220423F41292B4D/GitHub/CodeCool/04-dotnet/06-SI/WCF/src/client/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/polakosz/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
