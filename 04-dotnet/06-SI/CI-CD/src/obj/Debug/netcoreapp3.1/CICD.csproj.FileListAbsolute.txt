@@ -1,0 +1,4 @@
+/mnt/2220423F41292B4D/GitHub/CodeCool/04-dotnet/06-SI/CI-CD/src/obj/Debug/netcoreapp3.1/CICD.csprojAssemblyReference.cache
+/mnt/2220423F41292B4D/GitHub/CodeCool/04-dotnet/06-SI/CI-CD/src/obj/Debug/netcoreapp3.1/CICD.AssemblyInfoInputs.cache
+/mnt/2220423F41292B4D/GitHub/CodeCool/04-dotnet/06-SI/CI-CD/src/obj/Debug/netcoreapp3.1/CICD.AssemblyInfo.cs
+/mnt/2220423F41292B4D/GitHub/CodeCool/04-dotnet/06-SI/CI-CD/src/obj/Debug/netcoreapp3.1/CICD.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "13n6BVLnAp2h+kOuuzctgNBGoJd5lHId/aZqxrG5NViRxHzfRO2k96hFcYbNpaScmIuePF10ILYykfGWHMbvsg==",
+  "success": true,
+  "projectFilePath": "/mnt/2220423F41292B4D/GitHub/CodeCool/04-dotnet/06-SI/CI-CD/src/CICD.csproj",
+  "expectedPackageFiles": [
+    "/home/polakosz/.nuget/packages/microsoft.netcore.platforms/3.1.0/microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "/home/polakosz/.nuget/packages/microsoft.win32.registry/4.7.0/microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "/home/polakosz/.nuget/packages/system.diagnostics.eventlog/4.7.0/system.diagnostics.eventlog.4.7.0.nupkg.sha512",
+    "/home/polakosz/.nuget/packages/system.security.accesscontrol/4.7.0/system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "/home/polakosz/.nuget/packages/system.security.principal.windows/4.7.0/system.security.principal.windows.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
